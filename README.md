@@ -123,6 +123,3 @@ Add your screenshots to the `screenshots` folder and update the filenames below 
 
 ## Result
 The Flutter login application was developed and tested successfully. Firebase Authentication verifies the user's credentials, while Cloud Firestore stores and retrieves the user's profile information. The application demonstrates input validation, authentication error handling, profile retrieval, conditional navigation, and sign-out functionality.
-
-## Security Note
-Firebase Authentication should be used to verify passwords. Do not store plaintext passwords in Firestore or commit private service-account credentials to GitHub. Firestore security rules should restrict users to accessing only the data they are authorized to access.
